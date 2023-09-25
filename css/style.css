@@ -115,6 +115,7 @@ img {
   .container .row {
     padding-bottom: 40px;
     border-bottom: 1px dashed rgb(198, 198, 198);
+    text-align: center;
   }
 
   .container .row:last-child {
@@ -141,9 +142,5 @@ img {
 
   .hero .btn-primary {
     margin: 40px auto;
-  }
-
-  .hero img {
-    display: none;
   }
 }

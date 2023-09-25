@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Rachel Gapasin, a front-end developer based in America."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -18,11 +29,136 @@
       src="https://kit.fontawesome.com/a0c35383ef.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
     <title>About Rachel Gapasin</title>
   </head>
   <body>
-    <h1>About Me</h1>
-    <p>Welcome to my portfolio!</p>
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Rachel Gapasin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+            <a class="nav-link active" href="/about.html">About</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
+            <a class="nav-link" href="/images/resume.pdf" target="_blank"
+              >Resume</a
+            >
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="intro">
+        <h1>About Me</h1>
+        <h2>Front-end developer, based in America</h2>
+        <img
+          src="/images/profile-pic.jpeg"
+          alt="Rachel Gapasin"
+          class="img-fluid d-block d-sm-none m-auto mt-4"
+        />
+        <a
+          href="/contact.html"
+          class="btn btn-primary"
+          title="Contact Rachel Gapasin"
+          >Contact Me</a
+        >
+      </div>
+      <div class="main-image">
+        <img
+          src="/images/profile-pic.jpeg"
+          alt="Rachel Gapasin"
+          class="img-fluid d-none d-sm-block"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <img
+            src="/images/school.svg"
+            alt="New Jersey City University"
+            class="img-fluid mb-1 p-4"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2>Education</h2>
+          <p class="mt-3 text-muted">
+            I am currently in my senior year at New Jersey City University,
+            where I am pursuing a major in Computer Science and a minor in
+            Computer and Information Systems. My journey in higher education
+            began after graduating as valedictorian from Hudson Catholic
+            Regional High School, where my passion for technology and academics
+            truly took root. My time at university has provided me with a strong
+            foundation in computer science principles, programming languages,
+            and problem-solving skills, and I am eager to apply this knowledge
+            to real-world challenges as I embark on my professional journey.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6 d-sm-none">
+          <img
+            src="/images/coding.svg"
+            alt="Coding"
+            class="img-fluid mb-1 p-4"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2 class="text-sm-end">Passions</h2>
+          <p class="mt-3 text-sm-end text-muted">
+            I have a strong passion for technology. I have mainly focused on
+            backend development because of my coursework, but I recently found
+            great interest in front-end development. It has been amazing
+            learning what it's like to create art through code, and I can't wait
+            to work on more projects!
+          </p>
+        </div>
+        <div class="col-sm-6 d-none d-sm-block">
+          <img src="/images/coding.svg" alt="Coding" class="img-fluid p-4" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <img
+            src="/images/hobby-music.svg"
+            alt="Hobbies"
+            class="img-fluid mb-1 p-4"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2>Hobbies</h2>
+          <p class="mt-3 text-muted">
+            I like to think of coding as one of my hobbies because I love it so
+            much, but I do have activities that I like to take part in!
+          </p>
+          <p class="text-muted">
+            I really enjoy getting in touch with my creative through journaling
+            (I've actually made a webpage about this!) and occasionally
+            painting.
+          </p>
+          <p class="text-muted">
+            I'm also a huge fan of K-pop and would frequently go to concerts.
+            However, I've gotten busier lately, so I haven't had the luxury of
+            going to as many.
+          </p>
+          <p class="text-muted">
+            Lastly, it's always fun for me to attempt new hobbies like juggling
+            and ice skating!
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
