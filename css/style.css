@@ -37,6 +37,10 @@ img {
   font-family: var(--default-font-family);
 }
 
+.quote {
+  font-size: 25px;
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 220px 20px;
