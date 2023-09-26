@@ -1,0 +1,56 @@
+:root {
+  --tertiary-color: ;
+}
+
+form {
+  border-radius: 10px;
+  display: block;
+  margin: 40px auto;
+  max-width: 380px;
+}
+
+label {
+  font-family: var(--default-font-family);
+}
+
+.label-input {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.text-box {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 7px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.text-box:focus {
+  border: 2px solid var(--primary-color);
+  outline: 4px solid var(--secondary-color);
+}
+
+.contact-info-container {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.logo {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+#message {
+  height: 97px;
+}
