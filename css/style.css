@@ -3,7 +3,7 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Salsa", cursive;
   --default-font-family: "Poppins", sans-serif;
-  --box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -20,6 +20,11 @@ p {
 img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+}
+
+.content-top h1 {
+  font-size: 72px;
+  margin: 140px 0 80px;
 }
 
 .btn-primary {
