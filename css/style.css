@@ -8,14 +8,15 @@
 
 nav {
   background: #fff;
-  line-height: 25px;
+  box-shadow: 0 7px 7px 0px rgba(0, 0, 0, 0.1);
+  line-height: 40px;
   padding: 15px 15px;
 }
 
 nav img {
   border-radius: 0;
   vertical-align: middle;
-  width: 25px;
+  width: 40px;
 }
 
 nav ul {
@@ -57,7 +58,7 @@ img {
 
 .navbar-brand {
   color: #000;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .content-top {
