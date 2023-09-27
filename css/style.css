@@ -132,12 +132,18 @@ img {
   margin: 0 20px;
 }
 
-footer {
+footer .contact-box {
   background: var(--secondary-color);
   border-radius: 10px;
-  margin: 100px 0 50px;
+  margin-top: 100px;
   padding: 50px 0;
   text-align: center;
+}
+
+footer a {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* tablet users */
