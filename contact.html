@@ -64,22 +64,20 @@
         <h1 class="text-center">Contact Me</h1>
         <p class="text-center fs-3">Let's get in touch!</p>
       </div>
-      <form action="">
+      <form
+        action="https://formspree.io/f/xyyqbkrk"
+        method="post"
+        onsubmit="this.submit(); this.reset(); return false;"
+      >
         <div class="label-input">
           <label for="name">Name</label>
           <br />
-          <input type="text" name="name" class="text-box" id="name" disabled />
+          <input type="text" name="name" class="text-box" id="name" />
         </div>
         <div class="label-input">
           <label for="email">Email</label>
           <br />
-          <input
-            type="email"
-            name="email"
-            class="text-box"
-            id="email"
-            disabled
-          />
+          <input type="email" name="email" class="text-box" id="email" />
         </div>
         <div class="label-input">
           <label for="message">Message</label>
@@ -90,19 +88,13 @@
             class="text-box"
             id="message"
             rows="4"
-            disabled
           ></textarea>
         </div>
         <input type="submit" class="btn btn-primary" />
       </form>
       <p class="text-center">
-        NOTICE: The form above is currently under construction 😔
-        <br />
-        but please feel free to reach me using the links below!
-      </p>
-      <!-- <p class="text-center">
         Feel free to reach me using the links below as well!
-      </p> -->
+      </p>
       <div class="social-links d-flex justify-content-center mb-5">
         <a href="mailto:rachelgapasinn@gmail.com" title="Email"
           ><i class="fa-regular fa-envelope"></i
