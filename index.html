@@ -32,168 +32,182 @@
     <title>Rachel Gapasin - Front-end Developer</title>
   </head>
   <body>
-    <nav class="d-flex justify-content-between fixed-top">
-      <a href="/" class="navbar-brand d-none d-sm-block">Rachel Gapasin</a>
-      <a href="/"
-        ><img
-          src="/images/profile-pic.jpeg"
-          alt="Rachel Gapasin Logo"
-          class="d-block d-sm-none"
-      /></a>
-      <ul>
-        <li>
-          <a href="/" class="active">Home</a>
-        </li>
-        <li>
-          <a href="/about.html">About</a>
-        </li>
-        <li>
-          <a href="/projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="/resume.html">Resume</a>
-        </li>
-        <li>
-          <a href="/contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <div class="intro">
-        <p>Hi! I'm</p>
-        <h1>Rachel Gapasin</h1>
-        <h2>Front-end developer, based in America</h2>
-        <a
-          href="/contact.html"
-          class="btn btn-primary"
-          title="Contact Rachel Gapasin"
-          >Contact Me</a
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">RG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-      </div>
-      <div class="main-image">
-        <img
-          src="/images/profile-pic.jpeg"
-          alt="Rachel Gapasin"
-          class="img-fluid d-none d-sm-block"
-        />
-      </div>
-    </div>
-    <p class="quote text-center fs-2 m-5">
-      "Every line of code tells a story, let me tell yours."
-    </p>
-    <h2 class="text-center">Featured Projects</h2>
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <img
-            src="/images/world-clock.png"
-            alt="World Clock Project"
-            class="img-fluid mb-1"
-          />
-        </div>
-        <div class="col-sm-6">
-          <h2>World Clock App</h2>
-          <p class="mt-3 text-muted">
-            I built this minimalistic web app for my final project during
-            the SheCodes Plus Add-On workshop. I was able to work with the
-            JavaScript date library Moment.js. The app displays the current time
-            for multiple cities.
-          </p>
-          <a
-            href="/projects.html#world-clock"
-            class="btn btn-primary"
-            title="About World Clock App"
-            >Learn more</a
-          >
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-sm-6 d-sm-none">
-          <img
-            src="/images/weather-app.png"
-            alt="World Clock Project"
-            class="img-fluid mb-1"
-          />
-        </div>
-        <div class="col-sm-6">
-          <h2 class="text-sm-end">Weather App</h2>
-          <p class="mt-3 text-sm-end text-muted">
-            I built this app for my SheCodes Plus final project. It uses a
-            weather API to update the current weather and forecast for the week.
-            I originally used the Open Weather API but later changed the
-            SheCodes Weather API.
-          </p>
-          <div class="text-sm-end">
-            <a
-              href="/projects.html#weather-app"
-              class="btn btn-primary"
-              title="About Weather App"
-              >Learn more</a
-            >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
+            <a class="nav-link" href="/resume.html">Resume</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
           </div>
         </div>
-        <div class="col-sm-6 d-none d-sm-block">
+      </div>
+    </nav>
+    <header class="primary">
+      <div class="row ">
+        <div class="col text-center text-lg-start">
+          <h1>
+            I'm Rachel Gapasin, <br />
+            a <span class="special-text">front-end developer</span>.
+          </h1>
+          <p class="mt-3">
+            I love to code and create things. I'm enthusiastically exploring
+            opportunities for internships or full-time positions that align with
+            my skills and aspirations. Let's build something great together!
+          </p>
+          <a
+            href="/contact.html"
+            class="btn-primary me-3"
+            title="Contact Rachel Gapasin"
+            >Contact Me</a
+          >
+          <a href="/projects.html" class="btn-secondary" title="Browse Projects"
+            >Browse Projects</a
+          >
+        </div>
+        <div class="col-5 d-none d-lg-block">
           <img
-            src="/images/weather-app.png"
-            alt="Weather App Project"
+            src="/images/profile-pic.jpeg"
+            alt="Rachel Gapasin"
             class="img-fluid"
           />
         </div>
       </div>
-      <div class="row mt-5 mb-5">
-        <div class="col-sm-6">
-          <img
-            src="/images/writing-journaling.png"
-            alt="Writing Project"
-            class="img-fluid mb-1"
-          />
-        </div>
-        <div class="col-sm-6">
-          <h2>All About Writing</h2>
-          <p class="mt-3 text-muted">
-            I built this webpage for my final project for the SheCodes Basics
-            Add-On workshop. Aside from the page's topic, this differs from
-            my Matcha Magic project (which you can check out in my Projects tab)
-            because this one allows the user to change the theme and includes a
-            grid, one of which contains a transform property.
-          </p>
-          <a
-            href="/projects.html#writing-journaling"
-            class="btn btn-primary"
-            title="About Writing Webpage"
-            >Learn more</a
-          >
-        </div>
-      </div>
-      <footer>
-        <div class="contact-box">
-          <h3>Like what you see?</h3>
-          <p>Feel free to contact me!</p>
-          <div class="social-links d-flex justify-content-center mt-4">
-            <a href="mailto:rachelgapasinn@gmail.com" title="Email"
-              ><i class="fa-regular fa-envelope"></i
-            ></a>
+    </header>
+    <main>
+      <section>
+        <p class="quote text-center fs-2 m-5">
+          "Let's create something groundbreaking."
+        </p>
+      </section>
+      <section>
+        <h2 class="text-center">Featured Projects</h2>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <img
+              src="/images/world-clock.png"
+              alt="World Clock Project"
+              class="img-fluid mb-1"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2>World Clock App</h2>
+            <p class="mt-3 text-muted">
+              I built this minimalistic web app for my final project during
+              the SheCodes Plus Add-On workshop. I was able to work with the
+              JavaScript date library Moment.js. The app displays the current
+              time for multiple cities.
+            </p>
             <a
-              href="https://www.linkedin.com/in/rachelgapasin/"
-              target="_blank"
-              title="LinkedIn"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-            <a
-              href="https://instagram.com/rachelgapasinn"
-              target="_blank"
-              title="Instagram"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
+              href="/projects.html#world-clock"
+              class="btn btn-primary"
+              title="About World Clock App"
+              >Learn more</a
+            >
           </div>
         </div>
-        <div class="text-center mt-3 mb-5">
-          <a href="https://github.com/rachelgapasin/portfolio" target="_blank"
-            >Open-source code</a
-          >
-          by Rachel Gapasin 👩🏽‍💻
+        <div class="row mt-5">
+          <div class="col-sm-6 d-sm-none">
+            <img
+              src="/images/weather-app.png"
+              alt="World Clock Project"
+              class="img-fluid mb-1"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2 class="text-sm-end">Weather App</h2>
+            <p class="mt-3 text-sm-end text-muted">
+              I built this app for my SheCodes Plus final project. It uses a
+              weather API to update the current weather and forecast for the
+              week. I originally used the Open Weather API but later changed the
+              SheCodes Weather API.
+            </p>
+            <div class="text-sm-end">
+              <a
+                href="/projects.html#weather-app"
+                class="btn btn-primary"
+                title="About Weather App"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 d-none d-sm-block">
+            <img
+              src="/images/weather-app.png"
+              alt="Weather App Project"
+              class="img-fluid"
+            />
+          </div>
         </div>
-      </footer>
-    </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-sm-6">
+            <img
+              src="/images/writing-journaling.png"
+              alt="Writing Project"
+              class="img-fluid mb-1"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2>All About Writing</h2>
+            <p class="mt-3 text-muted">
+              I built this webpage for my final project for the SheCodes Basics
+              Add-On workshop. Aside from the page's topic, this differs from
+              my Matcha Magic project (which you can check out in my Projects
+              tab) because this one allows the user to change the theme and
+              includes a grid, one of which contains a transform property.
+            </p>
+            <a
+              href="/projects.html#writing-journaling"
+              class="btn btn-primary"
+              title="About Writing Webpage"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contact-box">
+        <h3>Like what you see?</h3>
+        <p>Feel free to contact me!</p>
+        <div class="social-links d-flex justify-content-center mt-4">
+          <a href="mailto:rachelgapasinn@gmail.com" title="Email"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/rachelgapasin/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://instagram.com/rachelgapasinn"
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="https://github.com/rachelgapasin/portfolio" target="_blank"
+          >Open-source code</a
+        >
+        by Rachel Gapasin 👩🏽‍💻
+      </div>
+    </footer>
   </body>
 </html>

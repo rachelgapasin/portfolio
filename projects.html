@@ -32,193 +32,202 @@
     <title>Projects - Rachel Gapasin</title>
   </head>
   <body>
-    <nav class="d-flex justify-content-between fixed-top">
-      <a href="/" class="navbar-brand d-none d-sm-block">Rachel Gapasin</a>
-      <a href="/"
-        ><img
-          src="/images/profile-pic.jpeg"
-          alt="Rachel Gapasin Logo"
-          class="d-block d-sm-none"
-      /></a>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about.html">About</a>
-        </li>
-        <li>
-          <a href="/projects.html" class="active">Projects</a>
-        </li>
-        <li>
-          <a href="/resume.html">Resume</a>
-        </li>
-        <li>
-          <a href="/contact.html">Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">RG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link active" aria-current="page" href="/projects.html"
+              >Projects</a
+            >
+            <a class="nav-link" href="/resume.html">Resume</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <div class="container">
-      <div class="content-top">
-        <h1 class="text-center">My Projects</h1>
+    <header class="secondary">
+      <h1 class="text-center">My Projects</h1>
+    </header>
+    <main>
+      <section>
+        <p class="text-center">
+          Thank you for checking out my work! Everything is ordered from newest
+          to oldest.
+        </p>
+      </section>
+      <section>
+        <div class="row mt-5" id="world-clock">
+          <div class="col-sm-6 mb-5">
+            <img
+              src="/images/monsta-x.png"
+              alt="World Clock"
+              class="img-fluid"
+            />
+            <h2 class="text-center mt-3">Monsta X</h2>
+            <p class="text-center text-muted">
+              Responsive webpage built with HTML and vanilla CSS.
+            </p>
+            <div class="project-links mx-auto" style="width: 300px">
+              <a
+                href="https://github.com/rachelgapasin/kpop-monsta-x"
+                target="_blank"
+                class="btn btn-secondary"
+                >View Source Code</a
+              >
+              <a
+                href="https://monstax.netlify.app/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Lauch App</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 mb-5">
+            <img
+              src="/images/world-clock.png"
+              alt="World Clock"
+              class="img-fluid"
+            />
+            <h2 class="text-center mt-3">World Clock</h2>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and JavaScript using Moment.js
+            </p>
+            <div class="project-links mx-auto" style="width: 300px">
+              <a
+                href="https://github.com/rachelgapasin/world-clock"
+                target="_blank"
+                class="btn btn-secondary"
+                >View Source Code</a
+              >
+              <a
+                href="https://rg-world-clock.netlify.app/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Lauch App</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 mb-5" id="weather-app">
+            <img
+              src="/images/weather-app.png"
+              alt="Weather App"
+              class="img-fluid"
+            />
+            <h2 class="text-center mt-3">Weather App</h2>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and JavaScript using Bootstrap and a weather
+              API
+            </p>
+            <div class="project-links mx-auto" style="width: 300px">
+              <a
+                href="https://github.com/rachelgapasin/vanilla-weather-app"
+                target="_blank"
+                class="btn btn-secondary"
+                >View Source Code</a
+              >
+              <a
+                href="https://melodious-hamster-bf580f.netlify.app/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Lauch App</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 mb-5" id="writing-journaling">
+            <img
+              src="/images/writing-journaling.png"
+              alt="Writing Webpage"
+              class="img-fluid"
+            />
+            <h2 class="text-center mt-3">All About Writing</h2>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and JavaScript
+            </p>
+            <div class="project-links mx-auto" style="width: 300px">
+              <a
+                href="https://github.com/rachelgapasin/writing-journaling"
+                target="_blank"
+                class="btn btn-secondary"
+                >View Source Code</a
+              >
+              <a
+                href="https://rg-writing.netlify.app/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Lauch App</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 mb-5">
+            <img
+              src="/images/matcha-magic.png"
+              alt="Matcha Webpage"
+              class="img-fluid"
+            />
+            <h2 class="text-center mt-3">Matcha Magic</h2>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and JavaScript
+            </p>
+            <div class="project-links mx-auto" style="width: 300px">
+              <a
+                href="https://github.com/rachelgapasin/matcha-magic"
+                target="_blank"
+                class="btn btn-secondary"
+                >View Source Code</a
+              >
+              <a
+                href="https://matcha-magic.netlify.app/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Lauch App</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contact-box">
+        <h3>Like what you see?</h3>
+        <p>Feel free to contact me!</p>
+        <div class="social-links d-flex justify-content-center mt-4">
+          <a href="mailto:rachelgapasinn@gmail.com" title="Email"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/rachelgapasin/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://instagram.com/rachelgapasinn"
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
       </div>
-      <p class="text-center">
-        Thank you for checking out my work! Everything is ordered from newest to
-        oldest.
-      </p>
-      <div class="row mt-5" id="world-clock">
-        <div class="col-sm-6 mb-5">
-          <img src="/images/monsta-x.png" alt="World Clock" class="img-fluid" />
-          <h2 class="text-center mt-3">Monsta X</h2>
-          <p class="text-center text-muted">
-            Responsive webpage built with HTML and vanilla CSS.
-          </p>
-          <div class="project-links mx-auto" style="width: 300px">
-            <a
-              href="https://github.com/rachelgapasin/kpop-monsta-x"
-              target="_blank"
-              class="btn btn-secondary"
-              >View Source Code</a
-            >
-            <a
-              href="https://monstax.netlify.app/"
-              target="_blank"
-              class="btn btn-secondary"
-              >Lauch App</a
-            >
-          </div>
-        </div>
-        <div class="col-sm-6 mb-5">
-          <img
-            src="/images/world-clock.png"
-            alt="World Clock"
-            class="img-fluid"
-          />
-          <h2 class="text-center mt-3">World Clock</h2>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript using Moment.js
-          </p>
-          <div class="project-links mx-auto" style="width: 300px">
-            <a
-              href="https://github.com/rachelgapasin/world-clock"
-              target="_blank"
-              class="btn btn-secondary"
-              >View Source Code</a
-            >
-            <a
-              href="https://rg-world-clock.netlify.app/"
-              target="_blank"
-              class="btn btn-secondary"
-              >Lauch App</a
-            >
-          </div>
-        </div>
-        <div class="col-sm-6 mb-5" id="weather-app">
-          <img
-            src="/images/weather-app.png"
-            alt="Weather App"
-            class="img-fluid"
-          />
-          <h2 class="text-center mt-3">Weather App</h2>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript using Bootstrap and a weather
-            API
-          </p>
-          <div class="project-links mx-auto" style="width: 300px">
-            <a
-              href="https://github.com/rachelgapasin/vanilla-weather-app"
-              target="_blank"
-              class="btn btn-secondary"
-              >View Source Code</a
-            >
-            <a
-              href="https://melodious-hamster-bf580f.netlify.app/"
-              target="_blank"
-              class="btn btn-secondary"
-              >Lauch App</a
-            >
-          </div>
-        </div>
-        <div class="col-sm-6 mb-5" id="writing-journaling">
-          <img
-            src="/images/writing-journaling.png"
-            alt="Writing Webpage"
-            class="img-fluid"
-          />
-          <h2 class="text-center mt-3">All About Writing</h2>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript
-          </p>
-          <div class="project-links mx-auto" style="width: 300px">
-            <a
-              href="https://github.com/rachelgapasin/writing-journaling"
-              target="_blank"
-              class="btn btn-secondary"
-              >View Source Code</a
-            >
-            <a
-              href="https://rg-writing.netlify.app/"
-              target="_blank"
-              class="btn btn-secondary"
-              >Lauch App</a
-            >
-          </div>
-        </div>
-        <div class="col-sm-6 mb-5">
-          <img
-            src="/images/matcha-magic.png"
-            alt="Matcha Webpage"
-            class="img-fluid"
-          />
-          <h2 class="text-center mt-3">Matcha Magic</h2>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript
-          </p>
-          <div class="project-links mx-auto" style="width: 300px">
-            <a
-              href="https://github.com/rachelgapasin/matcha-magic"
-              target="_blank"
-              class="btn btn-secondary"
-              >View Source Code</a
-            >
-            <a
-              href="https://matcha-magic.netlify.app/"
-              target="_blank"
-              class="btn btn-secondary"
-              >Lauch App</a
-            >
-          </div>
-        </div>
+      <div class="text-center mt-3">
+        <a href="https://github.com/rachelgapasin/portfolio" target="_blank"
+          >Open-source code</a
+        >
+        by Rachel Gapasin 👩🏽‍💻
       </div>
-      <footer>
-        <div class="contact-box">
-          <h3>Like what you see?</h3>
-          <p>Feel free to contact me!</p>
-          <div class="social-links d-flex justify-content-center mt-4">
-            <a href="mailto:rachelgapasinn@gmail.com" title="Email"
-              ><i class="fa-regular fa-envelope"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/rachelgapasin/"
-              target="_blank"
-              title="LinkedIn"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-            <a
-              href="https://instagram.com/rachelgapasinn"
-              target="_blank"
-              title="Instagram"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-        <div class="text-center mt-3 mb-5">
-          <a href="https://github.com/rachelgapasin/portfolio" target="_blank"
-            >Open-source code</a
-          >
-          by Rachel Gapasin 👩🏽‍💻
-        </div>
-      </footer>
-    </div>
+    </footer>
   </body>
 </html>

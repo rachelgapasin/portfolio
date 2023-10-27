@@ -33,74 +33,68 @@
     <title>Contact Rachel Gapasin</title>
   </head>
   <body>
-    <nav class="d-flex justify-content-between fixed-top">
-      <a href="/" class="navbar-brand d-none d-sm-block">Rachel Gapasin</a>
-      <a href="/"
-        ><img
-          src="/images/profile-pic.jpeg"
-          alt="Rachel Gapasin Logo"
-          class="d-block d-sm-none"
-      /></a>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about.html">About</a>
-        </li>
-        <li>
-          <a href="/projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="/resume.html">Resume</a>
-        </li>
-        <li>
-          <a href="/contact.html" class="active">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="content-top">
-        <h1 class="text-center">Contact Me</h1>
-        <p class="text-center fs-3">Let's get in touch!</p>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">RG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
+            <a class="nav-link" href="/resume.html">Resume</a>
+            <a class="nav-link active" aria-current="page" href="/contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
       </div>
-      <form
-        action="https://formsubmit.co/rachelgapasinn@gmail.com"
-        method="POST"
-      >
-        <div class="label-input">
-          <label for="name">Name</label>
-          <br />
-          <input type="text" name="name" class="text-box" id="name" required />
-        </div>
-        <div class="label-input">
-          <label for="email">Email</label>
-          <br />
-          <input
-            type="email"
-            name="email"
-            class="text-box"
-            id="email"
-            required
-          />
-        </div>
-        <div class="label-input">
-          <label for="message">Message</label>
-          <br />
-          <textarea
-            name="message"
-            class="text-box"
-            id="message"
-            rows="4"
-            required
-          ></textarea>
-        </div>
-        <input type="submit" class="btn btn-primary" />
-      </form>
+    </nav>
+
+    <header class="secondary">
+      <h1 class="text-center">Contact Me</h1>
+      <div class="text-center fs-3">Let's get in touch!</div>
+    </header>
+    <form action="https://formsubmit.co/rachelgapasinn@gmail.com" method="POST">
+      <div class="label-input">
+        <label for="name">Name</label>
+        <br />
+        <input type="text" name="name" class="text-box" id="name" required />
+      </div>
+      <div class="label-input">
+        <label for="email">Email</label>
+        <br />
+        <input type="email" name="email" class="text-box" id="email" required />
+      </div>
+      <div class="label-input">
+        <label for="message">Message</label>
+        <br />
+        <textarea
+          name="message"
+          class="text-box"
+          id="message"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+      <input type="submit" class="btn-primary " />
+    </form>
+
+    <footer>
       <p class="text-center">
         Feel free to reach me using the links below as well!
       </p>
-      <div class="social-links d-flex justify-content-center mb-5">
+      <div class="social-links d-flex justify-content-center">
         <a href="mailto:rachelgapasinn@gmail.com" title="Email"
           ><i class="fa-regular fa-envelope"></i
         ></a>
@@ -123,6 +117,6 @@
           ><i class="fa-brands fa-github"></i
         ></a>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
