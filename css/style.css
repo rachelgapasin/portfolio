@@ -192,11 +192,27 @@ footer a {
 
 /* tablet users */
 @media (max-width: 767px) {
+  main .btn-secondary {
+    font-size: 12px;
+  }
+
   .project-links {
     max-width: 245px;
   }
+}
 
-  main .btn-secondary {
-    font-size: 12px;
+/* mobile users */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  header .btn-primary,
+  header .btn-secondary {
+    padding: 17px 25px;
   }
 }
