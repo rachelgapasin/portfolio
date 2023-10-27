@@ -4,11 +4,11 @@
   --background-color: #f8f6fc;
   --heading-font-family: "Salsa", cursive;
   --default-font-family: "Poppins", sans-serif;
-  --box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 7px 29px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav {
-  box-shadow: 0 7px 7px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
@@ -80,7 +80,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 36px;
   margin-top: 12px;
 }
 
@@ -146,6 +146,23 @@ main img {
   font-style: italic;
 }
 
+.featured-project {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 8px 32px 0 #cbc9ff;
+  backdrop-filter: blur(4px);
+  border: 1px solid #fff;
+  margin-top: 40px;
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.card-body {
+  background-color: #fff;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -175,31 +192,11 @@ footer a {
 
 /* tablet users */
 @media (max-width: 767px) {
-  .container {
-    max-width: 90%;
-  }
-
   .project-links {
     max-width: 245px;
   }
 
   main .btn-secondary {
     font-size: 12px;
-  }
-}
-
-/* mobile users */
-@media (max-width: 575px) {
-  main .btn-primary {
-    display: block;
-    font-size: 12px;
-    margin: 0 auto;
-    max-width: 105px;
-  }
-
-  .container .row {
-    padding-bottom: 40px;
-    border-bottom: 1px dashed rgb(198, 198, 198);
-    text-align: center;
   }
 }
