@@ -95,13 +95,10 @@ footer {
 
 main {
   margin: 40px auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
-main img {
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-}
+
 
 .special-text {
   color: var(--primary-color);
@@ -155,7 +152,7 @@ main img {
   box-shadow: 0 8px 32px 0 #cbc9ff;
   backdrop-filter: blur(4px);
   border: 1px solid #fff;
-  margin-top: 40px;
+  margin: 12px 0;
   -webkit-backdrop-filter: blur(4px);
 }
 
