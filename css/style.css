@@ -98,8 +98,6 @@ main {
   max-width: 1200px;
 }
 
-
-
 .special-text {
   color: var(--primary-color);
 }
@@ -160,6 +158,20 @@ main {
   background-color: #fff;
 }
 
+.card .btn-primary, .card .btn-secondary {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.project-links {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -191,10 +203,6 @@ footer a {
 @media (max-width: 767px) {
   main .btn-secondary {
     font-size: 12px;
-  }
-
-  .project-links {
-    max-width: 245px;
   }
 }
 
