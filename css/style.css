@@ -212,8 +212,12 @@ footer {
 
 /* mobile users */
 @media (max-width: 575px) {
-  h1 {
+  header.primary h1 {
     font-size: 45px;
+  }
+
+  header.secondary h1 {
+    font-size: 50px;
   }
 
   header p {

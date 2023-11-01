@@ -3,6 +3,7 @@ form {
   display: block;
   margin: 40px auto;
   max-width: 380px;
+  padding: 15px;
 }
 
 label {
@@ -11,12 +12,12 @@ label {
 
 .label-input {
   font-size: 18px;
-  margin: 10px 0;
+  margin: 0 0 10px;
 }
 
 .text-box {
   border: 1px solid var(--primary-color);
-  border-radius: 5px;
+  border-radius: 7px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -28,6 +29,15 @@ label {
 .text-box:focus {
   border: 2px solid var(--primary-color);
   outline: 3px solid #a49ff9;
+}
+
+.btn-primary {
+  border-radius: 7px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .contact-info-container {
