@@ -77,7 +77,7 @@ function displayProjects() {
             >
             <a
               href="${project.demo}"
-              class="btn-primary w-100 mt-0"
+              class="btn-primary"
               target="_blank"
               >Demo</a
             >

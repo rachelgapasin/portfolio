@@ -1,3 +1,8 @@
+img {
+  border: 3px solid #f5f0fe;
+  border-radius: 20px;
+}
+
 @media (max-width: 991px) {
   h3 {
     font-size: 18px;

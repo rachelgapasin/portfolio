@@ -52,7 +52,7 @@ function displayCertificates() {
   certificates.forEach((certificate) => {
     const certificateDiv = document.createElement("div");
 
-    certificateDiv.className = "certificate col-sm-4 mt-5";
+    certificateDiv.className = "certificate col-sm-4 mt-4";
     certificateDiv.innerHTML = `
       <a
         href="${certificate.link}"
@@ -64,7 +64,7 @@ function displayCertificates() {
           width="100%"
         />
       </a>
-      <h3 class="text-center mt-3">${certificate.name}</h3>
+      <h3 class="text-center mt-2">${certificate.name}</h3>
     `;
 
     certificateContainer.appendChild(certificateDiv);
