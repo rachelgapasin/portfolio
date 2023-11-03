@@ -23,10 +23,10 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link" href="/#header">
+            <a className="nav-link" href="/">
               Home
             </a>
-            <a className="nav-link" href="./#about">
+            <a className="nav-link" href="/#about">
               About
             </a>
             <Link to="/projects" className="nav-link">
@@ -35,7 +35,7 @@ function Navbar() {
             <Link to="/resume" className="nav-link">
               Resume
             </Link>
-            <a className="nav-link" href="./#contact">
+            <a className="nav-link" href="/#contact">
               Contact
             </a>
           </div>
