@@ -1,21 +1,25 @@
-form {
+.Contact form {
   border-radius: 10px;
   display: block;
-  margin: 40px auto;
+  margin: 0px auto;
   max-width: 380px;
   padding: 15px;
 }
 
-label {
+.Contact label {
   font-family: var(--default-font-family);
 }
 
-.label-input {
+.Contact .contact-box {
+  padding: 40px 30px;
+}
+
+.Contact .label-input {
   font-size: 18px;
   margin: 0 0 10px;
 }
 
-.text-box {
+.Contact .text-box {
   border: 1px solid var(--primary-color);
   border-radius: 7px;
   box-sizing: border-box;
@@ -26,12 +30,12 @@ label {
   width: 100%;
 }
 
-.text-box:focus {
+.Contact .text-box:focus {
   border: 2px solid var(--primary-color);
   outline: 3px solid #a49ff9;
 }
 
-.btn-primary {
+.Contact .btn-primary {
   border-radius: 7px;
   font-weight: bold;
   letter-spacing: 5px;
@@ -40,11 +44,7 @@ label {
   width: 100%;
 }
 
-.contact-info-container {
+.Contact .contact-info-container {
   margin: 30px 0;
   text-align: center;
 }
-
-
-
-

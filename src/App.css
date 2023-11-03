@@ -1,81 +1,10 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f0fe;
-  --background-color: #f8f6fc;
+  --secondary-color: #e7dbff;
+  --background-color: #f2ebff;
   --heading-font-family: "Salsa", cursive;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 7px 29px 0 rgba(0, 0, 0, 0.2);
-}
-
-nav {
-  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand {
-  color: #000;
-  font-size: 30px;
-  letter-spacing: 1px;
-}
-
-header {
-  background: linear-gradient(
-    90deg,
-    rgb(240, 238, 254) 0%,
-    rgb(185, 181, 254) 100%
-  );
-}
-
-header.primary {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  padding: 200px 30px 140px;
-}
-
-header .row {
-  align-items: center;
-  gap: 60px;
-  max-width: 1300px;
-}
-
-header p {
-  font-size: 20px;
-  line-height: 2;
-}
-
-header .btn-primary,
-header .btn-secondary {
-  padding: 17px 30px;
-}
-
-header .btn-primary:hover {
-  background-color: transparent;
-}
-
-header .btn-secondary {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
-}
-
-header img {
-  background-color: transparent;
-  border: 7px dotted var(--primary-color);
-  border-radius: 50%;
-  width: 100%;
-  padding: 7px;
-}
-
-header.secondary {
-  background-color: var(--background-color);
-  height: fit-content;
-  padding: 160px 10px 90px;
-}
-
-header.secondary h1 {
-  font-size: 72px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
 }
 
 h1 {
@@ -87,7 +16,8 @@ h1 {
 h2 {
   font-size: 36px;
   letter-spacing: 5px;
-  margin-top: 12px;
+  margin-bottom: 20px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -100,13 +30,17 @@ a {
   text-decoration: none;
 }
 
-main,
-footer {
-  padding: 0 30px;
+section {
+  display: block;
+  margin: 0px auto;
+  padding: 80px 30px;
 }
 
-main {
-  margin: 40px auto;
+section.secondary {
+  background-color: var(--background-color);
+}
+
+.container {
   max-width: 1200px;
 }
 
@@ -127,7 +61,7 @@ main {
 .btn-primary {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
-  color: var(--background-color);
+  color: #fff;
 }
 
 .btn-primary:hover {
@@ -145,7 +79,7 @@ main {
 .btn-secondary:hover {
   background: var(--primary-color);
   border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
+  color: #fff;
 }
 
 .quote {
@@ -185,36 +119,12 @@ main {
   margin: 0 auto;
 }
 
-.social-links {
-  display: flex;
-  justify-content: center;
-}
-
-.social-links a {
-  color: var(--primary-color);
-  font-size: 30px;
-  margin: 0 20px;
-}
-
-footer {
-  background: linear-gradient(
-    90deg,
-    rgb(185, 181, 254) 0%,
-    rgb(240, 238, 254) 100%
-  );
-
-  padding: 50px 0;
-  text-align: center;
-}
-
-/* tablet users */
 @media (max-width: 767px) {
-  main .btn-secondary {
-    font-size: 12px;
+  section {
+    padding: 80px 20px;
   }
 }
 
-/* mobile users */
 @media (max-width: 575px) {
   header.primary h1 {
     font-size: 45px;
@@ -231,5 +141,9 @@ footer {
   header .btn-primary,
   header .btn-secondary {
     padding: 17px 25px;
+  }
+
+  section {
+    padding: 80px 10px;
   }
 }

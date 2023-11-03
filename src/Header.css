@@ -1,0 +1,60 @@
+.Header {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 200px 30px 140px;
+}
+
+.Header {
+  background: linear-gradient(
+    90deg,
+    rgb(240, 238, 254) 0%,
+    rgb(185, 181, 254) 100%
+  );
+}
+
+.Header .row {
+  align-items: center;
+  gap: 60px;
+  max-width: 1300px;
+}
+
+.Header p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.Header .btn-primary,
+.Header .btn-secondary {
+  padding: 17px 30px;
+}
+
+.Header .btn-primary:hover {
+  background-color: transparent;
+}
+
+.Header .btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+}
+
+.Header img {
+  background-color: transparent;
+  border: 7px dotted var(--primary-color);
+  border-radius: 50%;
+  width: 100%;
+  padding: 7px;
+}
+
+.Header.secondary {
+  background-color: var(--background-color);
+  height: fit-content;
+  padding: 160px 10px 90px;
+}
+
+.Header.secondary h1 {
+  font-size: 72px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+.Resume header {
+  background: linear-gradient(
+    90deg,
+    rgb(240, 238, 254) 0%,
+    rgb(185, 181, 254) 100%
+  );
+}
+
+.Resume img {
+  border: 3px solid #f5f0fe;
+  border-radius: 20px;
+}
+
+@media (max-width: 575px) {
+  .Resume h2 {
+    font-size: 30px;
+  }
+}
