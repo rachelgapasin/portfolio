@@ -58,3 +58,17 @@
   letter-spacing: 5px;
   text-transform: uppercase;
 }
+
+@media (max-width: 575px) {
+  .Header h1 {
+    font-size: 50px;
+  }
+
+  .Header .secondary h1 {
+    font-size: 50px;
+  }
+
+  .Header p {
+    font-size: 18px;
+  }
+}

@@ -126,23 +126,6 @@ section.secondary {
 }
 
 @media (max-width: 575px) {
-  header.primary h1 {
-    font-size: 45px;
-  }
-
-  header.secondary h1 {
-    font-size: 50px;
-  }
-
-  header p {
-    font-size: 18px;
-  }
-
-  header .btn-primary,
-  header .btn-secondary {
-    padding: 17px 25px;
-  }
-
   section {
     padding: 80px 10px;
   }

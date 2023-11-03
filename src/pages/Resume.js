@@ -53,7 +53,7 @@ function Resume() {
               </div>
             </div>
           </div>
-          <div className="row" id="certificate-container">
+          <div className="row">
             <h2 className="mt-5 text-center">Certifications</h2>
             <Certifications />
           </div>
