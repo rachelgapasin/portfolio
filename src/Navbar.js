@@ -29,9 +29,29 @@ function Navbar() {
             <a className="nav-link" href="/#about">
               About
             </a>
-            <Link to="/projects" className="nav-link">
-              Projects
-            </Link>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="true"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/#featured-projects">
+                    Featured Projects
+                  </a>
+                </li>
+                <li>
+                  <Link to="/projects" className="dropdown-item">
+                    All Projects
+                  </Link>
+                </li>
+              </ul>
+            </li>
             <Link to="/resume" className="nav-link">
               Resume
             </Link>

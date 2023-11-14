@@ -12,7 +12,7 @@ function Projects() {
       description:
         "A website that provides resources regarding homelessness in New Jersey.",
       imgSrc: "../images/projects/gwc-bahay.png",
-      sourceCode: "https://github.com/rachelgapasin/gwc-give-back-project",
+      sourceCode: "https://github.com/rachelgapasin/gwc-bahay",
       demo: "https://bahay.netlify.app",
     },
     {
