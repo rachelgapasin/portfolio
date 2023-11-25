@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./Navbar.css";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 function Navbar() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
-    <nav className="Navbar navbar navbar-expand-sm bg-body-tertiary fixed-top">
+    <nav className="Navbar navbar navbar-expand-sm bg-dark fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           RG
@@ -58,6 +63,7 @@ function Navbar() {
             <a className="nav-link" href="/#contact">
               Contact
             </a>
+            <ThemeSwitcher />
           </div>
         </div>
       </div>

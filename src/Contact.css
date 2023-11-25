@@ -20,6 +20,7 @@
 }
 
 .Contact .text-box {
+  background-color: var(--bg-primary);
   border: 1px solid var(--primary-color);
   border-radius: 7px;
   box-sizing: border-box;
@@ -31,8 +32,8 @@
 }
 
 .Contact .text-box:focus {
-  border: 2px solid var(--primary-color);
-  outline: 3px solid #a49ff9;
+  border: 1px solid var(--primary-color);
+  outline: 2px solid #a49ff9;
 }
 
 .Contact .btn-primary {

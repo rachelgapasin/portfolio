@@ -1,4 +1,5 @@
 .Pages header {
+  background: var(--header-bg);
   height: fit-content;
   padding: 160px 10px 90px;
 }

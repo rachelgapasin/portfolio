@@ -7,11 +7,7 @@
 }
 
 .Header {
-  background: linear-gradient(
-    90deg,
-    rgb(240, 238, 254) 0%,
-    rgb(185, 181, 254) 100%
-  );
+  background: var(--header-bg);
 }
 
 .Header .row {
@@ -45,18 +41,6 @@
   border-radius: 50%;
   width: 100%;
   padding: 7px;
-}
-
-.Header.secondary {
-  background-color: var(--background-color);
-  height: fit-content;
-  padding: 160px 10px 90px;
-}
-
-.Header.secondary h1 {
-  font-size: 72px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
 }
 
 @media (max-width: 575px) {

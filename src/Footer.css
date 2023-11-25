@@ -10,11 +10,7 @@
 }
 
 footer {
-  background: linear-gradient(
-    90deg,
-    rgb(185, 181, 254) 0%,
-    rgb(240, 238, 254) 100%
-  );
+  background: var(--header-bg);
   padding: 50px 30px;
   text-align: center;
 }
