@@ -1,11 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
-// import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
+import useLocalStorage from "./UseLocalStorage";
 
 import "./ThemeSwitcher.css";
 
 function ThemeSwitcher() {
-  const [theme, setTheme] = useState("light");
+  const defaultLight = window.matchMedia(
+    "(prefers-color-scheme: light)"
+  ).matches;
+  const [theme, setTheme] = useLocalStorage(
+    "portfolio.theme",
+    defaultLight ? "light" : "dark"
+  );
 
   useEffect(() => {
     document.documentElement.setAttribute("color-scheme", theme);
