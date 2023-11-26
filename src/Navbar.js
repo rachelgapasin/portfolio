@@ -30,7 +30,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <HashLink smooth to="#" className="nav-link">
+            <HashLink smooth to="/#" className="nav-link">
               Home
             </HashLink>
             <HashLink smooth to="/#about" className="nav-link">
