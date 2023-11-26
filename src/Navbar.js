@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 import ThemeSwitcher from "./ThemeSwitcher";
+import MusicPlayer from "./MusicPlayer";
 
 function Navbar() {
   useLayoutEffect(() => {
@@ -63,7 +64,25 @@ function Navbar() {
             <a className="nav-link" href="/#contact">
               Contact
             </a>
-            <ThemeSwitcher />
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="true"
+              >
+                <i class="fa-solid fa-gear"></i>
+              </a>
+              <ul class="dropdown-menu settings-menu">
+                <li class="dropdown-item">
+                  <ThemeSwitcher />
+                </li>
+                <li class="dropdown-item">
+                  <MusicPlayer />
+                </li>
+              </ul>
+            </li>
           </div>
         </div>
       </div>

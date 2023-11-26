@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 
 import useLocalStorage from "./UseLocalStorage";
 
-import "./ThemeSwitcher.css";
+import "./Settings.css";
 
 function ThemeSwitcher() {
   const defaultLight = window.matchMedia(
     "(prefers-color-scheme: light)"
   ).matches;
   const [theme, setTheme] = useLocalStorage(
-    "portfolio.theme",
+    "theme",
     defaultLight ? "light" : "dark"
   );
 
@@ -18,10 +18,10 @@ function ThemeSwitcher() {
   }, [theme]);
 
   return (
-    <div className="ThemeSwitcher">
+    <div className="Settings">
       <div>
         <button
-          className="btn-theme"
+          className="btn"
           aria-label={`Change theme to ${
             theme === "light" ? "dark" : "light"
           } mode`}

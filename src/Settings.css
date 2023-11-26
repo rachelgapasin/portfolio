@@ -1,0 +1,17 @@
+.Settings .btn {
+  aspect-ratio: 1 / 1;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 12px;
+  transition: 300ms;
+  width: fit-content;
+}
+
+.Settings .btn:hover {
+  background-color: #afafaf47;
+}
+
+.Settings i {
+  color: var(--text);
+}

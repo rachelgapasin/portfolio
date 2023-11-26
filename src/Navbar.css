@@ -20,17 +20,33 @@
 
 .Navbar .dropdown-menu {
   background-color: var(--bg-primary);
+  min-width: fit-content;
+}
+
+.Navbar .settings-menu {
+  padding: 10px;
 }
 
 .Navbar .dropdown-item {
   color: var(--text) !important;
 }
 
+.Navbar .settings-menu .dropdown-item {
+  padding: 0;
+  text-align: center;
+}
+
 .Navbar .dropdown-item:hover {
   background-color: var(--bg-primary);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .Navbar .nav-link {
   color: var(--text);
+}
+
+@media (max-width: 575px) {
+  .Navbar .settings-menu .dropdown-item {
+    text-align: start;
+  }
 }
