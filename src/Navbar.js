@@ -1,9 +1,10 @@
 import React, { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
-
-import "./Navbar.css";
+import { HashLink } from "react-router-hash-link";
 import ThemeSwitcher from "./ThemeSwitcher";
 import MusicPlayer from "./MusicPlayer";
+
+import "./Navbar.css";
 
 function Navbar() {
   useLayoutEffect(() => {
@@ -29,12 +30,12 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link" href="/">
+            <HashLink smooth to="#" className="nav-link">
               Home
-            </a>
-            <a className="nav-link" href="/#about">
+            </HashLink>
+            <HashLink smooth to="/#about" className="nav-link">
               About
-            </a>
+            </HashLink>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -47,9 +48,13 @@ function Navbar() {
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/#featured-projects">
+                  <HashLink
+                    smooth
+                    to="/#featured-projects"
+                    className="dropdown-item"
+                  >
                     Featured Projects
-                  </a>
+                  </HashLink>
                 </li>
                 <li>
                   <Link to="/projects" className="dropdown-item">
@@ -61,9 +66,9 @@ function Navbar() {
             <Link to="/resume" className="nav-link">
               Resume
             </Link>
-            <a className="nav-link" href="/#contact">
+            <HashLink smooth to="/#contact" className="nav-link">
               Contact
-            </a>
+            </HashLink>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
