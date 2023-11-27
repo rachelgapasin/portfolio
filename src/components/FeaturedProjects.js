@@ -12,7 +12,7 @@ function FeaturedProjects() {
           <div className="col-xs-12 col-sm-6 col-md-4">
             <div className="card">
               <img
-                src="./images/projects/gwc-bahay.png"
+                src="./assets/images/projects/gwc-bahay.png"
                 className="card-img-top"
                 alt="Bahay Website"
               />
@@ -46,7 +46,7 @@ function FeaturedProjects() {
           <div className="col-xs-12 col-sm-6 col-md-4">
             <div className="card">
               <img
-                src="./images/projects/wordist-dictionary.png"
+                src="./assets/images/projects/wordist-dictionary.png"
                 className="card-img-top"
                 alt="Wordist Dictionary"
               />
@@ -80,7 +80,7 @@ function FeaturedProjects() {
           <div className="col-xs-12 col-sm-6 col-md-4">
             <div className="card">
               <img
-                src="./images/projects/react-weather-app.png"
+                src="./assets/images/projects/react-weather-app.png"
                 className="card-img-top"
                 alt="React Weather App"
               />

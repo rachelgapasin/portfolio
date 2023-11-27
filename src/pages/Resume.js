@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Certifications from "./Certifications";
-import Footer from "../Footer";
+import Navbar from "../components/Navbar";
+import Certifications from "../components/Certifications";
+import Footer from "../components/Footer";
 
 import "./Resume.css";
 import "./Pages.css";
@@ -22,13 +22,13 @@ function Resume() {
           <div className="row mb-3">
             <div className="col-md">
               <img
-                src="/images/resume.png"
+                src="/assets/images/resume.png"
                 alt="Rachel Gapasin Plain Resume"
                 className="img-fluid"
               />
               <div className="text-center">
                 <a
-                  href="/images/resume.pdf"
+                  href="/assets/images/resume.pdf"
                   target="_blank"
                   className="btn btn-secondary w-100"
                 >
@@ -38,13 +38,13 @@ function Resume() {
             </div>
             <div className="col-md mt-5 mt-md-0">
               <img
-                src="/images/resume-formatted.png"
+                src="/assets/images/resume-formatted.png"
                 alt="Rachel Gapasin Formatted Resume"
                 className="img-fluid"
               />
               <div className="text-center">
                 <a
-                  href="/images/resume-formatted.pdf"
+                  href="/assets/images/resume-formatted.pdf"
                   target="_blank"
                   className="btn btn-secondary w-100"
                 >

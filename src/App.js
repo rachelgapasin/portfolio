@@ -1,9 +1,9 @@
-import Navbar from "./Navbar";
-import Header from "./Header";
-import About from "./About";
-import FeaturedProjects from "./FeaturedProjects";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import About from "./components/About";
+import FeaturedProjects from "./components/FeaturedProjects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import "./App.css";
 

@@ -11,7 +11,7 @@ function About() {
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="card">
               <img
-                src="./images/school.svg"
+                src="./assets/images/school.svg"
                 alt="New Jersey City University"
                 className="img-fluid mb-1 p-5"
               />
@@ -33,7 +33,7 @@ function About() {
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="card">
               <img
-                src="./images/coding.svg"
+                src="./assets/images/coding.svg"
                 alt="Coding"
                 className="img-fluid mb-1 p-2"
               />
@@ -54,7 +54,7 @@ function About() {
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="card">
               <img
-                src="./images/hobby-art.svg"
+                src="./assets/images/hobby-art.svg"
                 alt="Hobbies"
                 className="img-fluid mb-1 p-3"
               />
