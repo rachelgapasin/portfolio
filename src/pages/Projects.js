@@ -5,58 +5,7 @@ import Footer from "../components/Footer";
 import "./Projects.css";
 import "./Pages.css";
 
-function Projects() {
-  const projects = [
-    {
-      name: "Bahay Website",
-      description:
-        "A website that provides resources regarding homelessness in New Jersey.",
-      imgSrc: "../assets/images/projects/gwc-bahay.png",
-      sourceCode: "https://github.com/rachelgapasin/gwc-bahay",
-      demo: "https://bahay.netlify.app",
-    },
-    {
-      name: "Wordist Dictionary",
-      description:
-        "A dictionary app built in React by integrating a dictionary API and an images API.",
-      imgSrc: "../assets/images/projects/wordist-dictionary.png",
-      sourceCode: "https://github.com/rachelgapasin/dictionary",
-      demo: "https://wordist.netlify.app",
-    },
-    {
-      name: "React Weather App",
-      description:
-        "A weather app built in React by integrating a weather API and using Bootstrap.",
-      imgSrc: "../assets/images/projects/react-weather-app.png",
-      sourceCode: "https://github.com/rachelgapasin/react-weather-app",
-      demo: "https://weather-or-not.netlify.app",
-    },
-    {
-      name: "Monsta X Webpage",
-      description:
-        "A responsive webpage about my favorite K-pop group, built with HTML and vanilla CSS.",
-      imgSrc: "../assets/images/projects/monsta-x.png",
-      sourceCode: "https://github.com/rachelgapasin/kpop-monsta-x",
-      demo: "https://monstax.netlify.app",
-    },
-    {
-      name: "World Clock App",
-      description:
-        "A world clock app built using HTML, CSS (Bootstrap), and Javascript (Moment.js).",
-      imgSrc: "../assets/images/projects/world-clock.png",
-      sourceCode: "https://github.com/rachelgapasin/world-clock",
-      demo: "https://rg-world-clock.netlify.app",
-    },
-    {
-      name: "Vanilla Weather App",
-      description:
-        "A weather app built by integrating a weather API and using HTML, CSS, and Javascript.",
-      imgSrc: "../assets/images/projects/weather-app.png",
-      sourceCode: "https://github.com/rachelgapasin/weather-app",
-      demo: "https://rg-weather.netlify.app",
-    },
-  ];
-
+function Projects({ projects }) {
   return (
     <div className="Projects Pages">
       <Navbar />
