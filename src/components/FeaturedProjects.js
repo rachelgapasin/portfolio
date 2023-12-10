@@ -80,7 +80,7 @@ function FeaturedProjects() {
           <div className="col-xs-12 col-sm-6 col-md-4">
             <div className="card">
               <img
-                src="./assets/images/projects/react-weather-app.png"
+                src="./assets/images/projects/weather-app-react.png"
                 className="card-img-top"
                 alt="React Weather App"
               />
@@ -92,7 +92,7 @@ function FeaturedProjects() {
                 </p>
                 <div className="project-links">
                   <a
-                    href="https://github.com/rachelgapasin/react-weather-app"
+                    href="https://github.com/rachelgapasin/weather-app-react"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-secondary"
