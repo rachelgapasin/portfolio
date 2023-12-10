@@ -88,7 +88,7 @@ function FeaturedProjects() {
                 <h5 className="card-title">React Weather App</h5>
                 <p className="card-text">
                   A weather app built in React by integrating a weather API and
-                  using Bootstrap.
+                  using Tailwind CSS.
                 </p>
                 <div className="project-links">
                   <a

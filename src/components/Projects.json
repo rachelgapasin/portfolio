@@ -15,7 +15,7 @@
   },
   {
     "name": "React Weather App",
-    "description": "A weather app built in React by integrating OpenWeatherMap API and using Bootstrap.",
+    "description": "A weather app built in React by integrating OpenWeatherMap API and using Tailwind CSS.",
     "imgSrc": "../assets/images/projects/weather-app-react.png",
     "sourceCode": "https://github.com/rachelgapasin/weather-app-react",
     "demo": "https://weather-or-not.netlify.app"
