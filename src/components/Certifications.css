@@ -1,3 +1,7 @@
+.Certifications img {
+  aspect-ratio: 7 / 5;
+}
+
 @media (max-width: 991px) {
   .Certifications .certificate h3 {
     font-size: 18px;

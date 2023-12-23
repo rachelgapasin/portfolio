@@ -200,7 +200,7 @@ section.secondary {
   display: flex;
   gap: 5px;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 16px 15px;
 }
 
 @media (max-width: 767px) {

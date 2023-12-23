@@ -1,5 +1,12 @@
 [
   {
+    "name": "Facts Logger",
+    "description": "A web app built using React and Supabase database.",
+    "imgSrc": "../assets/images/projects/facts-logger.png",
+    "sourceCode": "https://github.com/rachelgapasin/facts-logger",
+    "demo": "https://todayilearned-rg.netlify.app"
+  },
+  {
     "name": "Bahay Website",
     "description": "A website that provides resources regarding homelessness in New Jersey.",
     "imgSrc": "../assets/images/projects/gwc-bahay.png",

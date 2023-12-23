@@ -20,7 +20,10 @@ function Projects({ projects }) {
         <section>
           <div className="row">
             {projects.map((project, index) => (
-              <div key={index} className="project col-xs-12 col-sm-6 col-md-4">
+              <div
+                key={index}
+                className="project col-xs-12 col-sm-6 col-md-4 d-flex align-items-stretch"
+              >
                 <div className="card">
                   <img
                     src={project.imgSrc}
@@ -30,24 +33,24 @@ function Projects({ projects }) {
                   <div className="card-body">
                     <h5 className="card-title">{project.name}</h5>
                     <p className="card-text">{project.description}</p>
-                    <div className="project-links">
-                      <a
-                        href={project.sourceCode}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-secondary"
-                      >
-                        Code
-                      </a>
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-primary"
-                      >
-                        Demo
-                      </a>
-                    </div>
+                  </div>
+                  <div className="project-links">
+                    <a
+                      href={project.sourceCode}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-secondary"
+                    >
+                      Code
+                    </a>
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-primary"
+                    >
+                      Demo
+                    </a>
                   </div>
                 </div>
               </div>
