@@ -35,44 +35,91 @@ function FeaturedProjects() {
       <div className="container">
         <h2>Featured Projects</h2>
         <div className="row">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="project col-xs-12 col-sm-6 col-md-4 d-flex align-items-stretch"
-            >
-              <div className="card">
+          <div id="carouselExampleCaptions" class="carousel slide m-auto">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <img
-                  src={project.imgSrc}
-                  className="card-img-top"
-                  alt={project.name}
+                  src={projects.at(0).imgSrc}
+                  class="d-block w-100"
+                  alt={projects.at(0).name}
                 />
-                <div className="card-body">
-                  <h5 className="card-title">{project.name}</h5>
-                  <p className="card-text">{project.description}</p>
+                <div class="carousel-caption">
+                  <h5>{projects.at(0).name}</h5>
+                  <p>{projects.at(0).description}</p>
                 </div>
-                <div className="project-links">
-                  <a
-                    href={project.sourceCode}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-secondary"
-                  >
-                    Code
-                  </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary"
-                  >
-                    Demo
-                  </a>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src={projects.at(1).imgSrc}
+                  class="d-block w-100"
+                  alt={projects.at(1).name}
+                />
+                <div class="carousel-caption">
+                  <h5>{projects.at(1).name}</h5>
+                  <p>{projects.at(1).description}</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src={projects.at(2).imgSrc}
+                  class="d-block w-100"
+                  alt={projects.at(2).name}
+                />
+                <div class="carousel-caption">
+                  <h5>{projects.at(2).name}</h5>
+                  <p>{projects.at(2).description}</p>
                 </div>
               </div>
             </div>
-          ))}
-          <div className="col text-center">
-            <Link to="/projects" className="btn-primary mt-3 mt-sm-0 mt-md-4">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div className="text-center">
+            <Link to="/projects" className="btn-primary mt-3">
               See All Projects
             </Link>
           </div>

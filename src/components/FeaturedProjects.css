@@ -3,6 +3,51 @@
   margin-bottom: auto;
 }
 
+.FeaturedProjects .carousel {
+  max-width: 700px;
+}
+
+.FeaturedProjects .carousel-item img {
+  border-radius: 10px;
+  margin-bottom: 145px;
+}
+
+.FeaturedProjects .carousel-caption {
+  bottom: 0;
+  color: var(--text) !important;
+  height: 140px;
+  padding: 1.25rem;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+.FeaturedProjects .carousel-control-prev,
+.FeaturedProjects .carousel-control-next {
+  margin-bottom: 145px;
+}
+
+.FeaturedProjects .carousel-indicators button {
+  background-color: var(--text);
+}
+
 .FeaturedProjects .btn-primary {
   margin: 0;
+}
+
+@media (max-width: 767px) {
+  .FeaturedProjects .carousel-item img,
+  .FeaturedProjects .carousel-control-prev,
+  .FeaturedProjects .carousel-control-next {
+    margin-bottom: 170px;
+  }
+
+  .FeaturedProjects .carousel-caption {
+    bottom: 1.25rem;
+    color: #fff;
+    max-width: 100%;
+    padding: 1.25rem 0;
+    position: absolute;
+    text-align: center;
+  }
 }
