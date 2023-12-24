@@ -34,6 +34,9 @@ function FeaturedProjects() {
     <section className="FeaturedProjects secondary" id="featured-projects">
       <div className="container">
         <h2>Featured Projects</h2>
+        <p className="text-center fst-italic">
+          Click on the image to view the project!
+        </p>
         <div className="row">
           <div id="carouselExampleCaptions" class="carousel slide m-auto">
             <div class="carousel-indicators">
@@ -60,35 +63,86 @@ function FeaturedProjects() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  src={projects.at(0).imgSrc}
-                  class="d-block w-100"
-                  alt={projects.at(0).name}
-                />
+                <a
+                  href={projects.at(0).demo}
+                  title="See Facts Logger"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={projects.at(0).imgSrc}
+                    class="d-block w-100"
+                    alt={projects.at(0).name}
+                  />
+                </a>
                 <div class="carousel-caption">
-                  <h5>{projects.at(0).name}</h5>
+                  <h5>
+                    {projects.at(0).name}
+                    <a
+                      href={projects.at(0).sourceCode}
+                      title="GitHuh repository"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa-brands fa-github"></i>
+                    </a>
+                  </h5>
                   <p>{projects.at(0).description}</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  src={projects.at(1).imgSrc}
-                  class="d-block w-100"
-                  alt={projects.at(1).name}
-                />
+                <a
+                  href={projects.at(1).demo}
+                  title="See Bahay"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={projects.at(1).imgSrc}
+                    class="d-block w-100"
+                    alt={projects.at(1).name}
+                  />
+                </a>
                 <div class="carousel-caption">
-                  <h5>{projects.at(1).name}</h5>
+                  <h5>
+                    {projects.at(1).name}
+                    <a
+                      href={projects.at(1).sourceCode}
+                      title="GitHuh repository"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa-brands fa-github"></i>
+                    </a>
+                  </h5>
                   <p>{projects.at(1).description}</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  src={projects.at(2).imgSrc}
-                  class="d-block w-100"
-                  alt={projects.at(2).name}
-                />
+                <a
+                  href={projects.at(2).demo}
+                  title="See Weather or Not"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={projects.at(2).imgSrc}
+                    class="d-block w-100"
+                    alt={projects.at(2).name}
+                  />
+                </a>
                 <div class="carousel-caption">
-                  <h5>{projects.at(2).name}</h5>
+                  <h5>
+                    {projects.at(2).name}
+                    <a
+                      href={projects.at(2).sourceCode}
+                      title="GitHuh repository"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa-brands fa-github"></i>
+                    </a>
+                  </h5>
                   <p>{projects.at(2).description}</p>
                 </div>
               </div>

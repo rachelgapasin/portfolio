@@ -21,6 +21,14 @@ function Footer() {
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
           <a
+            href="https://github.com/rachelgapasin"
+            target="_blank"
+            rel="noreferrer"
+            title="GitHub"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <a
             href="https://instagram.com/rachelgapasinn"
             target="_blank"
             rel="noreferrer"
