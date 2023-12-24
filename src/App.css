@@ -172,6 +172,7 @@ section.secondary {
 }
 
 .card {
+  background-color: var(--bg-primary);
   box-shadow: var(--card-shadow);
   backdrop-filter: blur(4px);
   border: 1px solid var(--bg-primary);
@@ -180,7 +181,6 @@ section.secondary {
 }
 
 .card-body {
-  background-color: var(--bg-primary);
   color: var(--text);
 }
 
