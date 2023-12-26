@@ -2,7 +2,6 @@ import React, { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import ThemeSwitcher from "./ThemeSwitcher";
-import MusicPlayer from "./MusicPlayer";
 
 import "./Navbar.css";
 
