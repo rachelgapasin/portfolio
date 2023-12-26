@@ -69,25 +69,7 @@ function Navbar() {
             <HashLink smooth to="/#contact" className="nav-link">
               Contact
             </HashLink>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="/"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="true"
-              >
-                <i class="fa-solid fa-gear"></i>
-              </a>
-              <ul class="dropdown-menu settings-menu">
-                <li class="dropdown-item">
-                  <ThemeSwitcher />
-                </li>
-                <li class="dropdown-item">
-                  <MusicPlayer />
-                </li>
-              </ul>
-            </li>
+            <ThemeSwitcher />
           </div>
         </div>
       </div>
