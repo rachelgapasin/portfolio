@@ -11,6 +11,16 @@
   padding-left: 4px;
 }
 
+.Navbar .nav-link {
+  transition: 270ms;
+}
+
+.Navbar .nav-link:hover,
+.Navbar .dropdown-toggle:hover,
+.Navbar .dropdown-item:hover {
+  color: var(--primary-color) !important;
+}
+
 .Navbar .navbar-toggler {
   border-color: var(--text);
 }
@@ -39,7 +49,6 @@
 
 .Navbar .dropdown-item:hover {
   background-color: var(--bg-primary);
-  font-weight: 500;
 }
 
 .Navbar .nav-link {

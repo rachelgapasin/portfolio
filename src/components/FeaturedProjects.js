@@ -38,13 +38,13 @@ function FeaturedProjects() {
           Click on the image to view the project!
         </p>
         <div className="row">
-          <div id="carouselExampleCaptions" class="carousel slide m-auto">
-            <div class="carousel-indicators">
+          <div id="carouselExampleCaptions" className="carousel slide m-auto">
+            <div className="carousel-indicators">
               <button
                 type="button"
                 data-bs-target="#carouselExampleCaptions"
                 data-bs-slide-to="0"
-                class="active"
+                className="active"
                 aria-current="true"
                 aria-label="Slide 1"
               ></button>
@@ -61,8 +61,8 @@ function FeaturedProjects() {
                 aria-label="Slide 3"
               ></button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
                 <a
                   href={projects.at(0).demo}
                   title="See Facts Logger"
@@ -71,11 +71,11 @@ function FeaturedProjects() {
                 >
                   <img
                     src={projects.at(0).imgSrc}
-                    class="d-block w-100"
+                    className="d-block w-100"
                     alt={projects.at(0).name}
                   />
                 </a>
-                <div class="carousel-caption">
+                <div className="carousel-caption">
                   <h5>
                     {projects.at(0).name}
                     <a
@@ -90,7 +90,7 @@ function FeaturedProjects() {
                   <p>{projects.at(0).description}</p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <a
                   href={projects.at(1).demo}
                   title="See Bahay"
@@ -99,11 +99,11 @@ function FeaturedProjects() {
                 >
                   <img
                     src={projects.at(1).imgSrc}
-                    class="d-block w-100"
+                    className="d-block w-100"
                     alt={projects.at(1).name}
                   />
                 </a>
-                <div class="carousel-caption">
+                <div className="carousel-caption">
                   <h5>
                     {projects.at(1).name}
                     <a
@@ -118,7 +118,7 @@ function FeaturedProjects() {
                   <p>{projects.at(1).description}</p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <a
                   href={projects.at(2).demo}
                   title="See Weather or Not"
@@ -127,11 +127,11 @@ function FeaturedProjects() {
                 >
                   <img
                     src={projects.at(2).imgSrc}
-                    class="d-block w-100"
+                    className="d-block w-100"
                     alt={projects.at(2).name}
                   />
                 </a>
-                <div class="carousel-caption">
+                <div className="carousel-caption">
                   <h5>
                     {projects.at(2).name}
                     <a
@@ -148,28 +148,28 @@ function FeaturedProjects() {
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
           <div className="text-center">

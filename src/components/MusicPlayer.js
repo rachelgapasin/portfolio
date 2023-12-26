@@ -26,9 +26,9 @@ const MusicPlayer = () => {
       ></audio>
       <button className="btn" onClick={togglePlayPause}>
         {isPlaying ? (
-          <i class="fa-solid fa-pause"></i>
+          <i className="fa-solid fa-pause"></i>
         ) : (
-          <i class="fa-solid fa-play"></i>
+          <i className="fa-solid fa-play"></i>
         )}
       </button>
     </div>

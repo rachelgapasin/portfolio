@@ -35,9 +35,9 @@ function Navbar() {
             <HashLink smooth to="/#about" className="nav-link">
               About
             </HashLink>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="/"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -45,7 +45,7 @@ function Navbar() {
               >
                 Projects
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <HashLink
                     smooth
