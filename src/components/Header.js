@@ -9,7 +9,7 @@ function Header() {
         <div className="col">
           <h1>
             I'm Rachel Gapasin, <br />a{" "}
-            <span className="special-text">front-end developer</span>.
+            <span className="special-text">web developer</span>.
           </h1>
           <p className="mt-3">
             I love to code and create things. I'm enthusiastically exploring
