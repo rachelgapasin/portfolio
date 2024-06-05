@@ -18,14 +18,10 @@ function About() {
               <div className="card-body">
                 <h5 className="card-title">Education 👩🏽‍🎓</h5>
                 <p className="card-text">
-                  I am currently in my senior year at New Jersey City
-                  University, where I am pursuing a bachelor's degree in
-                  Computer Science.
+                I am a recent graduate from New Jersey City University with a B.S. in Computer Science.
                 </p>
                 <p className="card-text">
-                  My time at university has provided me with a strong foundation
-                  in computer science principles, programming languages, and
-                  problem-solving skills.
+                  I graduated with honors with a GPA of 4.0 (Summa Cum Laude). Additionally, I was involved in my university's programming clubs, the Software Development Club and Girls Who Code.
                 </p>
               </div>
             </div>
