@@ -14,7 +14,7 @@ function Header() {
             I'm Rachel Gapasin, <br />a{" "}
             <span className="special-text">web developer</span>.
           </h1>
-          <p>
+          <p className="mt-3">
             I love to code and create things. I'm currently seeking Software Developer, Web Developer, UX/UI Design roles. Let's build something great together!
           </p>
           <a
