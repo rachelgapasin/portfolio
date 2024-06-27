@@ -1,5 +1,12 @@
 [
   {
+    "name": "PoeticPetals",
+    "description": "A web app using AI to generate different types of poems.",
+    "imgSrc": "../assets/images/projects/poeticpetals.png",
+    "sourceCode": "https://github.com/rachelgapasin/ai-poem-generator",
+    "demo": "https://poeticpetals.netlify.app"
+  },
+  {
     "name": "Facts Logger",
     "description": "A web app built using React and Supabase database.",
     "imgSrc": "../assets/images/projects/facts-logger.png",

@@ -1,1 +1,4 @@
-
+.Projects .card-title {
+    color: var(--primary-color);
+    font-weight: bold;
+}
