@@ -17,10 +17,11 @@ function Header() {
                   "web developer.",
                   "front-end developer.",
                   "software developer.",
+                  "web developer.",
                 ]}
+                startDelay={1000}
                 typeSpeed={50}
                 backSpeed={40}
-                loop
               />
             </span>
           </h1>
