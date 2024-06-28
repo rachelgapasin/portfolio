@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactTyped } from "react-typed";
 
 import "./Header.css";
 
@@ -10,7 +11,18 @@ function Header() {
           <p className="location d-lg-none mb-2">📍 Jersey City, NJ, USA</p>
           <h1>
             I'm Rachel Gapasin, <br />a{" "}
-            <span className="special-text">web developer</span>.
+            <span className="special-text">
+              <ReactTyped
+                strings={[
+                  "web developer.",
+                  "front-end developer.",
+                  "software developer.",
+                ]}
+                typeSpeed={50}
+                backSpeed={40}
+                loop
+              />
+            </span>
           </h1>
           <p className="mt-3">
             I love to code and create things. I'm currently seeking Software
