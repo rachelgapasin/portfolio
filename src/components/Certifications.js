@@ -9,9 +9,9 @@ const certificates = [
     imgSrc: "/assets/images/certificates/udemy-full-stack-cc.jpg",
   },
   {
-    name: "SheCodes Max",
+    name: "SheCodes Front-end",
     link: "https://www.shecodes.io/certificates/95316-rachel-gapasin/max",
-    imgSrc: "/assets/images/certificates/shecodes-max.png",
+    imgSrc: "/assets/images/certificates/shecodes-frontend.png",
   },
   {
     name: "SheCodes React",
@@ -23,7 +23,11 @@ const certificates = [
     link: "https://www.shecodes.io/certificates/c087932c553fbc77d9843b25065370e9",
     imgSrc: "/assets/images/certificates/shecodes-responsive-ao.png",
   },
-
+  {
+    name: "SheCodes AI",
+    link: "https://www.shecodes.io/certificates/d898f74954cdd00c4867e54932dff15e?_gl=1*1qju3h7*_gcl_au*MTcxOTMzMDg5OC4xNzE1MzE3MzM0",
+    imgSrc: "/assets/images/certificates/shecodes-ai.png",
+  },
   {
     name: "SheCodes Plus",
     link: "https://www.shecodes.io/certificates/c3e76188733b5cec3f8294114f524734",
