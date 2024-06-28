@@ -19,7 +19,7 @@ function Header() {
                   "software developer.",
                   "web developer.",
                 ]}
-                startDelay={1000}
+                startDelay={400}
                 typeSpeed={50}
                 backSpeed={40}
               />
