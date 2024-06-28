@@ -7,15 +7,15 @@ function Header() {
     <div className="Header" id="header">
       <div className="row">
         <div className="col">
-          <p className="location d-lg-none mb-2">
-              📍 Jersey City, NJ, USA
-          </p>
+          <p className="location d-lg-none mb-2">📍 Jersey City, NJ, USA</p>
           <h1>
             I'm Rachel Gapasin, <br />a{" "}
             <span className="special-text">web developer</span>.
           </h1>
           <p className="mt-3">
-            I love to code and create things. I'm currently seeking Software Developer, Web Developer, UX/UI Design roles. Let's build something great together!
+            I love to code and create things. I'm currently seeking Software
+            Development, Web Development, Front-end Development, and UX/UI
+            Design positions. Let's build something great together!
           </p>
           <a
             href="./#contact"
@@ -38,9 +38,7 @@ function Header() {
             alt="Rachel Gapasin"
             className="img-fluid"
           />
-          <p className="location text-center mt-2">
-            📍 Jersey City, NJ, USA
-          </p>
+          <p className="location text-center mt-2">📍 Jersey City, NJ, USA</p>
         </div>
       </div>
     </div>
