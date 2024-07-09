@@ -17,7 +17,7 @@ function Resume() {
         <section>
           <p className="text-center">
             Pick a resume format to download 🤗 Don't worry, the content is
-            generally the same, so just choose whichever you think is easier to
+            generally the same, so just choose whichever is easier for you to
             read!
           </p>
           <div className="row mb-3">

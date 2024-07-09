@@ -16,10 +16,10 @@ function Header() {
                 strings={[
                   "web developer.",
                   "front-end developer.",
-                  "software developer.",
+                  "programmer.",
                   "web developer.",
                 ]}
-                startDelay={400}
+                startDelay={200}
                 typeSpeed={50}
                 backSpeed={40}
               />
