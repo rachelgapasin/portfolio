@@ -10,7 +10,7 @@ const certificates = [
   },
   {
     name: "SheCodes Front-end",
-    link: "https://www.shecodes.io/certificates/95316-rachel-gapasin/max",
+    link: "https://www.shecodes.io/diplomas/e0ed9183783e936851cf10fad8413f13",
     imgSrc: "/assets/images/certificates/shecodes-frontend.png",
   },
   {

@@ -15,43 +15,20 @@ function Resume() {
       </header>
       <div className="container">
         <section>
-          <p className="text-center">
-            Pick a resume format to download 🤗 Don't worry, the content is
-            generally the same, so just choose whichever is easier for you to
-            read!
-          </p>
-          <div className="row mb-3">
-            <div className="col-md">
-              <img
-                src="../assets/images/resume.png"
-                alt="Rachel Gapasin Plain Resume"
-                className="img-fluid"
-              />
-              <div className="text-center">
-                <a
-                  href="../assets/images/resume.pdf"
-                  target="_blank"
-                  className="btn btn-secondary w-100"
-                >
-                  Download Resume
-                </a>
-              </div>
-            </div>
-            <div className="col-md mt-5 mt-md-0">
-              <img
-                src="../assets/images/resume-formatted.png"
-                alt="Rachel Gapasin Formatted Resume"
-                className="img-fluid"
-              />
-              <div className="text-center">
-                <a
-                  href="../assets/images/resume-formatted.pdf"
-                  target="_blank"
-                  className="btn btn-secondary w-100"
-                >
-                  Download Resume
-                </a>
-              </div>
+          <div className="resume">
+            <img
+              src="../assets/images/resume.png"
+              alt="Rachel Gapasin Plain Resume"
+              className="img-fluid"
+            />
+            <div className="text-center">
+              <a
+                href="../assets/images/resume.pdf"
+                target="_blank"
+                className="btn btn-secondary w-100"
+              >
+                Download Resume
+              </a>
             </div>
           </div>
           <div className="row">
