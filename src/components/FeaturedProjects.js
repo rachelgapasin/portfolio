@@ -5,27 +5,28 @@ import "./FeaturedProjects.css";
 
 const projects = [
   {
-    name: "Facts Logger",
-    description: "A web app built using React and Supabase database.",
-    imgSrc: "../assets/images/projects/facts-logger.png",
-    sourceCode: "https://github.com/rachelgapasin/facts-logger",
-    demo: "https://todayilearned-rg.netlify.app",
+    name: "CarePulse",
+    description:
+      "A healthcare platform built using Next.js, Tailwind CSS, and Appwrite (backend).",
+    imgSrc: "../assets/images/projects/carepulse.png",
+    sourceCode: "https://github.com/rachelgapasin/carepulse-nextjs",
+    demo: "https://carepulse-rg.vercel.app",
+  },
+  {
+    name: "Promptopia",
+    description:
+      "A prompt-sharing web app using Next.js, Tailwind CSS, and MongoDB.",
+    imgSrc: "../assets/images/projects/promptopia.png",
+    sourceCode: "https://github.com/rachelgapasin/promptopia-nextjs",
+    demo: "https://promptopia-rg.vercel.app",
   },
   {
     name: "Bahay Website",
     description:
-      "A website that provides resources regarding homelessness in New Jersey.",
+      "A resource website built using HTML, CSS (Bootstrap), and JavaScript.",
     imgSrc: "../assets/images/projects/gwc-bahay.png",
     sourceCode: "https://github.com/rachelgapasin/gwc-bahay",
     demo: "https://bahay.netlify.app",
-  },
-  {
-    name: "React Weather App",
-    description:
-      "A weather app built in React by integrating OpenWeatherMap API and using Tailwind CSS.",
-    imgSrc: "../assets/images/projects/weather-app-react.png",
-    sourceCode: "https://github.com/rachelgapasin/weather-app-react",
-    demo: "https://weather-or-not.netlify.app",
   },
 ];
 

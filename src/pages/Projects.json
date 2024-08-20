@@ -1,5 +1,19 @@
 [
   {
+    "name": "CarePulse",
+    "description": "A healthcare platform built using Next.js, Tailwind CSS, and Appwrite (backend).",
+    "imgSrc": "../assets/images/projects/carepulse.png",
+    "sourceCode": "https://github.com/rachelgapasin/carepulse-nextjs",
+    "demo": "https://carepulse-rg.vercel.app"
+  },
+  {
+    "name": "Promptopia",
+    "description": "A prompt-sharing web app using Next.js, Tailwind CSS, and MongoDB.",
+    "imgSrc": "../assets/images/projects/promptopia.png",
+    "sourceCode": "https://github.com/rachelgapasin/promptopia-nextjs",
+    "demo": "https://promptopia-rg.vercel.app"
+  },
+  {
     "name": "PoeticPetals",
     "description": "A web app using AI to generate different types of poems.",
     "imgSrc": "../assets/images/projects/poeticpetals.png",
@@ -15,7 +29,7 @@
   },
   {
     "name": "Bahay Website",
-    "description": "A website that provides resources regarding homelessness in New Jersey.",
+    "description": "A resource website built using HTML, CSS (Bootstrap), and JavaScript.",
     "imgSrc": "../assets/images/projects/gwc-bahay.png",
     "sourceCode": "https://github.com/rachelgapasin/gwc-bahay",
     "demo": "https://bahay.netlify.app"
